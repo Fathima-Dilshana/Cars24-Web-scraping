@@ -1,11 +1,19 @@
-OBJECTIVE
+WEB SCRAPING OF CARS24.COM
 
-The objective for this web scraping project involved several key steps to ensure the successful extraction and analysis of data. First, the project utilized Python as the primary programming language due to its extensive libraries and ease of use for web scraping tasks. Essential libraries included BeautifulSoup for parsing HTML and extracting data, and Requests for sending HTTP requests and retrieving web content. Additionally, Selenium was employed to manage dynamic content and automate interactions with web pages that used JavaScript for data loading. The implementation process began with setting up the development environment and installing the necessary libraries. The web scraper was designed to navigate through the target website and extract specific data fields, such as product names, prices, and reviews. BeautifulSoup was used to parse the HTML content and retrieve the desired information, while Requests facilitated the fetching of web pages. To address the challenges of dynamic content loading, Selenium was incorporated to interact with elements that were not immediately visible on page load. This approach allowed the scraper to handle JavaScript-generated content effectively. The project also included mechanisms for managing anti-scraping measures, such as CAPTCHAs and IP blocking. Techniques like implementing delays between requests, using proxy servers, and handling CAPTCHA challenges were employed to ensure smooth and uninterrupted data collection. 
-Data was then structured and saved in CSV and JSON formats to facilitate further 
-analysis. Error handling and data validation procedures were integrated to maintain 
-the quality and accuracy of the collected information. The methodology aimed to 
-create a reliable and efficient web scraping tool capable of handling various 
-challenges and producing valuable data for analysis. 
-This structured approach ensured that the web scraper was robust, effective, and 
-capable of addressing both technical and practical challenges encountered during 
-the project.
+This is a project report of the project , which we (Team E) of EVOASTRA VENTURES pvt ltd has done as part of our internship program. The main aim of this project is to web scrap the data of the website "cars24.com" . The data's we need to scrap are details of used cars in various locations enlisted in the website for re-selling. The details we have to extract for each cars are
+1. Year
+2. Make
+3. Model
+4. Kilometers driven
+5. Fuel type
+6. Ownership
+7. Transmission type
+8. Current price
+9. Original price
+10. Location
+
+After extracting data, we cleaned the data and treated the missing values & duplicate values. After this, we performed a Power Bi visualization for the extracted data's and discovered several insights. 
+
+In addition, we developed a predictive analysis model to predict the price of the car with the features mentioned.
+
+Here, I added python file, project report pdf, presentation file and power bi visualization file.
